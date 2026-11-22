@@ -1,0 +1,12 @@
+:root { --vert: #0F2A1D; --vert-moyen: #1E4632; --or: #C9A227; --or-clair: #E8D28A; --ivoire: #F5EFDC; }
+html { background: var(--vert); }
+body { margin: 0; color: var(--ivoire); font: 17px/1.6 Georgia, "Times New Roman", serif;
+  background: radial-gradient(circle at 50% 0, var(--vert-moyen), var(--vert) 60%) no-repeat; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+.logo { display: block; width: 110px; margin: 0 auto 8px; }
+h1, h2 { color: var(--or); letter-spacing: .04em; }
+h1 { text-align: center; margin: 0 0 4px; }
+h2 { margin-top: 32px; font-size: 21px; border-bottom: 1px solid var(--or); padding-bottom: 4px; }
+.discret { color: var(--or-clair); opacity: .85; text-align: center; font-size: 15px; }
+a { color: var(--or-clair); }
+li { margin-bottom: 6px; }
